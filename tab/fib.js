@@ -7,3 +7,6 @@ function fib(n){
     }
     return table[n]
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
