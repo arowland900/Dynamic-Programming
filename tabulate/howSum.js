@@ -11,3 +11,6 @@ function howSum(target, numbers) {
     }
     return table[target]
 }
+
+// Time Complexity: O(n*m^2)
+// Space Complexity: O(m^2)
