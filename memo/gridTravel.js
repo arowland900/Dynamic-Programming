@@ -11,7 +11,8 @@ function gridTraveler(m, n, memo={}) {
 }
 
 // After Memo:
-
+// Time Complexity: O(m * n)
+// Space Complexity: O(n+m)
 
 // Before Memo:
 // Time Complexity: O(2^(m+n))
