@@ -16,3 +16,5 @@ function gridTraveler(m,n){
     return table[m][n]
 }
 
+// Time Complexity: O(mn)
+// Space Complexity: O(mn)
