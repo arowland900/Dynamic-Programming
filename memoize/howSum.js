@@ -15,3 +15,11 @@ function howSum(target, numbers, memo = {}) {
     memo[target] = null
     return null
 }
+
+// After Memo:
+// Time Complexity: O(n * m^2)
+// Space Complexity: O(m^2)
+
+// Before Memo:
+// Time Complexity: O(m * n^m)
+// Space Complexity: O(m)
