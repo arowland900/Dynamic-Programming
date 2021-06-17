@@ -4,3 +4,11 @@ function fib(n, memo={}){
     memo[n] = fib(n-1) + fib(n-2)
     return memo[n]
 }
+
+// After Memo:
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
+// Before Memo:
+// Time Complexity: O(2^n)
+// Space Complexity: O(n)
