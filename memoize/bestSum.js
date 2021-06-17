@@ -18,6 +18,14 @@ function howSum(target, numbers, memo = {}) {
     return best
 }
 
+// After Memo:
+// Time Complexity: O(n * m^2)
+// Space Complexity: O(m^2)
+
+// Before Memo:
+// Time Complexity: O(n^m * m)
+// Space Complexity: O(m^2)
+
 
 
 
