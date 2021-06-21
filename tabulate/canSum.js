@@ -5,7 +5,7 @@ function canSum(target, numbers) {
     for (let i = 0; i < target; i++) {
         if (table[i]) {
             for (let num of numbers) {
-                if (num + i <= target) table[num + i] = true
+                table[num + i] = true
             }
         }
     }
